@@ -1,6 +1,6 @@
 function search(search_value){
     $.ajax({
-        url: '/Event-Driven/models/searchEngine.php',
+        url: '/cressel/models/searchEngine.php',
         type: 'POST',
         data: { 'search' : search_value },
         success: function(response){

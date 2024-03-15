@@ -12,7 +12,11 @@
            ?>
            <tr>
             <td style="text-align : center;"><?= $row['Hotel_ID'] ?></td>
-            <td><?= $row['Name'] ?></td>
+            <td><?= $row['Name'] ?>
+        <td class="d-grid">
+        <button type="button" class="btn btn-sm btn-block btn-success" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
+        </td>
+        </td>
            </tr>
            <?php
         }

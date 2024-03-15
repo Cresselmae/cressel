@@ -39,7 +39,7 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Dashboard</a>
+          <a class="nav-link" href="./index.php">Dashboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./register.php">Registration</a>
@@ -58,8 +58,8 @@
 
     <!-- Navigation -->
     <div class="container">
-        <p class="h3 mt-3">Hotels</p>
-        <p>You can find your favorite hotel here...</p>
+        <p class="h3 mt-3">Registration</p>
+        <p>You can register here..</p>
     <div class="card mt-4">
     <!-- Header -->
     <div class="card-header">List of Hotels 
@@ -69,44 +69,8 @@
     <div class="card-body">
     <div class="card-header"> 
     <hr>
-    <table class="table table-hover">
-    <thead>
-    <tr>
-        <th width= "100" style="text-align : center;">Hotel Id</th>
-        <th style= "text-align: left; padding-left: 10px">Hotel Name</th>
-        <th width="50" style="text-align : center;">Action</th>
-    </tr>
-    </thead> 
-    <tbody id="results">
-    </tbody>
-    </table>
     </div></div>
     <div class="card-footer">Those are the list of Hotels</div>
-    
-    <!-- The Modal -->
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
         
     </div>
